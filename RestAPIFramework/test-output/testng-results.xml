@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel testing suite" duration-ms="2720" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:47 EDT">
+    <groups>
+    </groups>
+    <test name="Regression 1" duration-ms="2720" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:47 EDT">
+      <class name="GetAPI.TypicodeAPI">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="setBaseUri" is-config="true" duration-ms="325" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="testGetCommentsResponse()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetCommentsResponse" duration-ms="1422" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsResponse -->
+        <test-method status="PASS" signature="testGetCommentsStatusCodeAndContentType()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetCommentsStatusCodeAndContentType" duration-ms="1196" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsStatusCodeAndContentType -->
+        <test-method status="PASS" signature="testDeleteRequest()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testDeleteRequest" duration-ms="1186" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRequest -->
+        <test-method status="PASS" signature="testGetPostById()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetPostById" duration-ms="1573" started-at="2019-10-03T12:00:44 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostById -->
+        <test-method status="PASS" signature="testGetPostByInvalidId()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetPostByInvalidId" duration-ms="203" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByInvalidId -->
+        <test-method status="PASS" signature="testGetPostsNonEmptyResponse()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetPostsNonEmptyResponse" duration-ms="183" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsNonEmptyResponse -->
+        <test-method status="PASS" signature="testGetPostsResponse()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetPostsResponse" duration-ms="147" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsResponse -->
+        <test-method status="PASS" signature="testGetPostsStatusCodeAndContentType()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetPostsStatusCodeAndContentType" duration-ms="130" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsStatusCodeAndContentType -->
+        <test-method status="PASS" signature="testGetUserPosts()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetUserPosts" duration-ms="140" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserPosts -->
+        <test-method status="PASS" signature="testGetUserPostsStatusCodeAndContentType()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testGetUserPostsStatusCodeAndContentType" duration-ms="110" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserPostsStatusCodeAndContentType -->
+        <test-method status="PASS" signature="testPatchRequest()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPatchRequest" duration-ms="307" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchRequest -->
+        <test-method status="PASS" signature="testPostRequest()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPostRequest" duration-ms="275" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequest -->
+        <test-method status="PASS" signature="testPostRequestWithInvalidId()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPostRequestWithInvalidId" duration-ms="215" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithInvalidId -->
+        <test-method status="PASS" signature="testPutRequestFull()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPutRequestFull" duration-ms="346" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutRequestFull -->
+        <test-method status="PASS" signature="testPutRequestIdNotFound()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPutRequestIdNotFound" duration-ms="202" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutRequestIdNotFound -->
+        <test-method status="PASS" signature="testPutRequestPartial()[pri:0, instance:GetAPI.TypicodeAPI@72b6cbcc]" name="testPutRequestPartial" duration-ms="490" started-at="2019-10-03T12:00:46 EDT" finished-at="2019-10-03T12:00:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutRequestPartial -->
+      </class> <!-- GetAPI.TypicodeAPI -->
+    </test> <!-- Regression 1 -->
+  </suite> <!-- Parallel testing suite -->
+</testng-results>
